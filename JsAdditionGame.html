@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js_Addition_Game</title>
+    <link rel="stylesheet" href="JSadditionGame.css">
+</head>
+<body>
+    <div class="text-center">
+        <img src="maths.jpg" class="image" />
+        <div class="bg-container pt-5 pb-5">
+            <span class="number m-2" id="firstNumber"></span>
+            <span class="operator m-1">+</span>
+            <span class="number m-2" id="secondNumber"></span>
+            <span class="operator m-1">=</span>
+            <input class="user-input" id="userInput" type="text" />
+            <div class="mt-4 mb-4">
+                <button id="checkButton" class="btn btn-primary mr-3" onclick="checkResult()">
+                    Check
+                </button>
+                <button id="restartButton" class="btn btn-primary" onclick="restartGame()">
+                    Restart
+                </button>
+            </div>
+            <p class="game-result" id="gameResult"></p>
+        </div>
+    </div>
+    <script src="JSadditionGame.js"></script>
+</body>
+</html>
